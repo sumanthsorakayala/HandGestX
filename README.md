@@ -35,8 +35,18 @@ Maps gestures to system control actions
 🚀 Getting Started
 To run the source code:
 
-bash
-Copy
-Edit
 pip install opencv-python mediapipe pyautogui
 python main.py
+
+--
+
+| Gesture                         | Description                         | Action Performed      |
+| ------------------------------- | ----------------------------------- | --------------------- |
+| 👉 **Index finger only**        | Pointing with just the index finger | **Move mouse**        |
+| 🤏 **Index + Thumb close**      | Like a pinching gesture             | **Left click**        |
+| ✌️ **Index + Middle fingers**   | Two fingers up                      | **Scroll Down**       |
+| 🖐️ **All fingers up**          | Full open palm                      | **Volume Up**         |
+| 🤙 **Thumb down only**          | Thumb folded, others up             | **Volume Down**       |
+| 🤚 **All fingers up + Hold**    | Hold hand in open state             | **Mouse Hold (Drag)** |
+| ✌️ (held) **Index + Middle up** | Hold two fingers up                 | **Scroll Up**         |
+| 🤜 **Index + Middle + Thumb**   | Specific three-finger gesture       | **Right Click**       |
